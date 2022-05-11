@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MazdaTools.jnlp">
+  <information>
+    <title>MazdaTools</title>
+    <vendor>Hmama-Mohammed</vendor>
+    <description>MazdaTooLs</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MazdaTools.jar" size="385208" download="eager" />
+    <jar href="libs\mysql-connector-java-8.0.25.jar" size="2428320" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="gi3.MazdaTools.Main"  name="MazdaTooLs" />
+  <update check="background"/>
+</jnlp>

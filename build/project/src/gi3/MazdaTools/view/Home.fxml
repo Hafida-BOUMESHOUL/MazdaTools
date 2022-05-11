@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="880.0" styleClass="anchorPane" stylesheets="@Ressources/styles(interface1).css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gi3.MazdaTools.controller.HomeController">
+   <children>
+      <Pane id="paneGauche" layoutX="1.0" layoutY="-1.0" prefHeight="560.0" prefWidth="439.0">
+         <children>
+            <Label fx:id="numCommande1" layoutX="121.0" layoutY="45.0" prefHeight="27.0" prefWidth="33.0" text="---">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="nomClient1" layoutX="164.0" layoutY="45.0" prefHeight="27.0" prefWidth="133.0" text="---">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="totalCommande1" layoutX="25.0" layoutY="72.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="productHist1" layoutX="25.0" layoutY="99.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="dateCommande1" layoutX="25.0" layoutY="126.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="numCommande2" layoutX="121.0" layoutY="229.0" prefHeight="27.0" prefWidth="40.0" text="---">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Label>
+            <Label fx:id="nomClient2" layoutX="161.0" layoutY="229.0" prefHeight="27.0" prefWidth="133.0" text="---">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="totalCommande2" layoutX="23.0" layoutY="256.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="productHist2" layoutX="23.0" layoutY="283.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="dateCommande2" layoutX="23.0" layoutY="310.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="numCommande3" layoutX="118.0" layoutY="407.0" prefHeight="27.0" prefWidth="33.0" text="---">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="nomClient3" layoutX="162.0" layoutY="407.0" prefHeight="27.0" prefWidth="133.0" text="---">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="totalCommande3" layoutX="23.0" layoutY="434.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="productHist3" layoutX="23.0" layoutY="461.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="dateCommande3" layoutX="23.0" layoutY="488.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="statusCommande1" layoutX="23.0" layoutY="153.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="statusCommande2" layoutX="23.0" layoutY="337.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="statusCommande3" layoutX="23.0" layoutY="515.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+            <Label fx:id="Commande1" layoutX="25.0" layoutY="45.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="Commande2" layoutX="23.0" layoutY="229.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+            <Label fx:id="Commande3" layoutX="23.0" layoutY="407.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Label>
+         </children></Pane>
+      <Pane id="paneDroit" layoutX="444.0" prefHeight="560.0" prefWidth="439.0">
+         <children>
+            <Button layoutX="74.0" layoutY="153.0" mnemonicParsing="false" onAction="#NvCommande" prefHeight="50.0" prefWidth="300.0" text="Nouvelle Commande">
+               <styleClass>
+                  <String fx:value="bouttonHome" />
+                  <String fx:value="bouttonNouvelleCommande" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="74.0" layoutY="233.0" mnemonicParsing="false" onAction="#SearchCommande" prefHeight="50.0" prefWidth="300.0" text="Chercher Commande">
+               <styleClass>
+                  <String fx:value="bouttonHome" />
+                  <String fx:value="bouttonChercherCommande" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="73.0" layoutY="314.0" mnemonicParsing="false" onAction="#SearchClient" prefHeight="50.0" prefWidth="300.0" text="Chercher Client">
+               <styleClass>
+                  <String fx:value="bouttonHome" />
+                  <String fx:value="bouttonChercheClient" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="76.0" layoutY="390.0" mnemonicParsing="false" onAction="#Statistiques" prefHeight="50.0" prefWidth="300.0" text="Statistiques">
+               <styleClass>
+                  <String fx:value="bouttonHome" />
+                  <String fx:value="bouttonStatistiques" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="183.0" layoutY="34.0" text="Home">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </Label>
+            <Pane layoutX="142.0" layoutY="34.0" prefHeight="49.0" prefWidth="53.0" styleClass="homeicon" />
+            <Button layoutX="25.0" layoutY="35.0" mnemonicParsing="false" onAction="#Settings" prefHeight="48.0" prefWidth="53.0" styleClass="setting">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="350.0" layoutY="35.0" mnemonicParsing="false" onAction="#LogOut" prefHeight="52.0" prefWidth="48.0" styleClass="logout">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Button layoutX="346.0" layoutY="37.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Modifier" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="346.0" layoutY="123.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Livrée" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="347.0" layoutY="79.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Annulée" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="347.0" layoutY="222.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Modifier" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="347.0" layoutY="308.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Livrée" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="348.0" layoutY="264.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Annulée" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="344.0" layoutY="410.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Modifier" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="344.0" layoutY="496.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Livrée" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="345.0" layoutY="452.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="67.0" text="Annulée" textFill="WHITE">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <AnchorPane layoutX="47.0" layoutY="203.0" prefHeight="2.0" prefWidth="366.0" style="-fx-background-color: #4ca1a3;" styleClass="anchorPane" />
+      <AnchorPane layoutX="47.0" layoutY="375.0" prefHeight="2.0" prefWidth="366.0" style="-fx-background-color: #4ca1a3;" styleClass="anchorPane" />
+   </children>
+</AnchorPane>

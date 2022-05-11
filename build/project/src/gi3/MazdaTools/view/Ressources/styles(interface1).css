@@ -1,0 +1,265 @@
+
+.anchorPane {
+	-fx-background-color: #4ca1a3;
+
+}
+
+#paneGauche {
+	-fx-background-color: #aadae3;
+	-fx-pref-width:439px;
+	-fx-pref-height:560px;
+}
+
+#paneDroit {
+	-fx-background-color: #e6f4f7;
+	-fx-pref-width:439px;
+	-fx-pref-height:560px;
+}
+
+.boutton {
+	-fx-border-radius: 10px;
+	-fx-background-radius: 10px;
+	-fx-font-weight:bold;
+	-fx-pref-width:73px;
+	-fx-pref-height:27px;
+}
+.bouttonHome{
+	-fx-pref-width:300px;
+	-fx-pref-height:50px;
+	-fx-font-weight:bold;
+	-fx-font-size:18px;
+}
+.homeicon{
+	-fx-background-image:url("icons/outline_home.png");
+	-fx-background-repeat:no-repeat;
+    -fx-background-color:none;
+}
+.logout{
+	-fx-background-image:url("icons/outline_logout_.png");
+	-fx-background-repeat:no-repeat;
+	 -fx-background-color:none;
+}
+.setting{
+	-fx-background-image:url("icons/outline.png");
+	-fx-background-repeat:no-repeat;
+	  -fx-background-color:none;
+}
+.return{
+	-fx-background-image:url("icons/return.png");
+	-fx-background-repeat:no-repeat;
+    -fx-background-color:none;
+
+}
+.underline{
+	-fx-background-color:black;
+}
+.bouttonSeConnecter {
+	-fx-background-color:  #dadada;
+	-fx-border-color: #1e272e;
+	-fx-text-fill: #1e272e;
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+	
+}
+
+.bouttonSeConnecter:hover {
+	-fx-background-color:  #1e272e;
+	-fx-border-color: #dadada;
+	-fx-text-fill: #dadada;
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+}
+
+.bouttonImprimer {
+	
+	-fx-background-color: #907fa4;
+	-fx-text-fill: #511281;
+	-fx-border-color:#511281;
+	
+}
+
+.bouttonImprimer:hover {
+	-fx-background-color: #e6f4f7;
+}
+.bouttonChanger {
+	-fx-background-color: #f4eee8;
+	-fx-border-radius: 10px;
+	-fx-background-radius: 15px;
+	-fx-border-color: #f5cebe;
+	-fx-border-width: 2px;
+}
+.bouttonChanger:hover {
+	-fx-background-color: #e6f4f7;
+	-fx-scale-x:1.1;
+	-fx-scale-y:1.1;
+	-fx-scale-z:1.1;
+	-fx-border-color: #907fa4;
+}
+.bouttonModifier {
+	-fx-background-color: #a9f1df;
+	-fx-text-fill: #1b9cfc;
+	-fx-border-color: #1b9cfc;
+}
+
+.bouttonModifier:hover {
+	-fx-background-color: #e6f4f7;
+}
+
+.bouttonAnnulee {
+	-fx-background-color: #ff6b6b  ;
+	-fx-text-fill: #cf0000;
+	-fx-border-color: #cf0000 ;
+}
+
+.bouttonAnnulee:hover {
+	-fx-background-color: #e6f4f7;
+}
+
+ .bouttonLivree {
+ 	-fx-background-color: #1dd1a1 ;
+ 	-fx-text-fill: #235d3a;
+	-fx-border-color: #235d3a;
+}
+
+.bouttonLivree:hover {
+	-fx-background-color: #e6f4f7;
+}
+.bouttonEnregistrer{
+	-fx-background-color:  #e55039;
+	-fx-border-color: #dadada;
+	-fx-text-fill: white;
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+}
+.bouttonEnregistrer:hover{
+	-fx-background-color:  #e55039;
+	-fx-border-color: #4ca1a3;
+	-fx-text-fill: white;
+	-fx-border-radius: 50px;
+	-fx-background-radius: 50px;
+}
+.bouttonNouvelleCommande {
+-fx-background-color: #FE7115 ;
+/*-fx-effect:dropshadow(three-pass-box, rgba(0,0,0,0.6),5,0.0,0,1);*/
+}
+.bouttonNouvelleCommande:hover {
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+.bouttonChercherCommande {
+-fx-background-color: #D3DD18 ;
+}
+.bouttonChercherCommande:hover{
+ -fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+.bouttonChercheClient{
+-fx-background-color: #F8D90F ;
+}
+.bouttonChercheClient:hover{
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+
+.bouttonStatistiques {
+-fx-background-color: #35BBCA ;
+}
+.bouttonStatistiques:hover{
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+
+
+
+.bouttonChercher {
+-fx-background-color:#ABED87 ;
+ -fx-text-fill: #235D3A;
+-fx-border-color: #235D3A;
+-fx-font-size:14px;
+-fx-pref-width:92px;
+-fx-pref-height:27px;
+}
+.bouttonChercher:hover{
+-fx-background-color: #e6f4f7;
+}
+
+.bouttonCommandes {
+	-fx-background-color: #fed330;
+	-fx-text-fill: #ff3838;
+	-fx-border-color: #ff3838;
+
+}
+
+.bouttonCommandes:hover {
+	-fx-background-color: #e6f4f7;
+}
+
+.bouttonInterStat{
+-fx-border-radius: 10px;
+-fx-background-radius: 10px;
+-fx-font-weight:bold;
+-fx-pref-width:96px;
+-fx-pref-height:27px;
+}
+.bouttonProduit {
+-fx-background-color:#c6ffc1 ;
+-fx-text-fill: #4ca1a3;
+-fx-border-color: #4ca1a3;
+}
+.bouttonProduit:hover {
+-fx-background-color:#e6f4f7 ;
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+
+.bouttonVentes {
+	-fx-background-color: #BDC581;
+	-fx-text-fill: black;
+	-fx-border-color: black;
+}
+
+.bouttonVentes :hover {
+	-fx-background-color: #e6f4f7;
+	
+	-fx-scale-x:1.1;
+	-fx-scale-y:1.1;
+	-fx-scale-z:1.1;
+
+}
+
+.bouttonAnuelles {
+-fx-background-color:#ffc75f;
+-fx-text-fill: #e1701a;
+-fx-border-color: #e1701a;
+}
+.bouttonAnuelles:hover {
+-fx-background-color:#e6f4f7 ;
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+
+.bouttonMenuelles {
+-fx-background-color:#dbf6e9;
+-fx-text-fill: #81b214;
+-fx-border-color: #81b214;
+}
+.bouttonMenuelles:hover {
+-fx-background-color:#e6f4f7 ;
+-fx-scale-x:1.1;
+-fx-scale-y:1.1;
+-fx-scale-z:1.1;
+}
+.textField{
+-fx-background-color:#e6f4f7;
+-fx-border-color:transparent transparent #aadae3 transparent;
+-fx-prompt-text-fill:black;
+}
+.date_picker{
+-fx-border-color:transparent transparent transparent transparent;
+}

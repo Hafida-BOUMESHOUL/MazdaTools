@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="880.0" styleClass="anchorPane" stylesheets="@Ressources/styles(interface1).css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gi3.MazdaTools.controller.ControlerModifierCommande">
+   <children>
+      <Pane id="paneGauche" layoutX="-2.0" prefHeight="561.0" prefWidth="450.0">
+         <children>
+            <Button layoutX="347.0" layoutY="143.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Modifier">
+               <styleClass>
+                  <String fx:value="boutton" />
+                  <String fx:value="bouttonModifier" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="347.0" layoutY="100.0" mnemonicParsing="false" onAction="#versImprimable" prefHeight="32.0" prefWidth="80.0" text="Imprimer">
+               <styleClass>
+                  <String fx:value="boutton" />
+                  <String fx:value="bouttonImprimer" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="22.0" layoutY="9.0" mnemonicParsing="false" onAction="#HomeRetour" prefHeight="50.0" prefWidth="60.0" styleClass="return">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Label layoutX="238.0" layoutY="16.0" prefHeight="40.0" prefWidth="189.0" text="Résultat de recherche">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="347.0" layoutY="267.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Imprimer">
+               <styleClass>
+                  <String fx:value="boutton" />
+                  <String fx:value="bouttonImprimer" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="347.0" layoutY="306.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="80.0" text="Modifier">
+               <styleClass>
+                  <String fx:value="boutton" />
+                  <String fx:value="bouttonModifier" />
+               </styleClass>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Pane id="paneDroit" layoutX="441.0" prefHeight="559.0" prefWidth="426.0">
+         <children>
+            <Label layoutX="92.0" layoutY="23.0" prefHeight="27.0" prefWidth="268.0" text="Modification de la commande">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="125.0" prefHeight="28.0" prefWidth="60.0" text="Client :">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField disable="true" layoutX="35.0" layoutY="167.0" prefHeight="25.0" prefWidth="202.0" promptText="06 66 66 66 66 " styleClass="textField" />
+            <TextField disable="true" layoutX="34.0" layoutY="200.0" prefHeight="25.0" prefWidth="202.0" promptText="Nom et prénom" styleClass="textField" />
+            <RadioButton disable="true" layoutX="275.0" layoutY="179.0" mnemonicParsing="false" text="Homme" textFill="#827549">
+               <toggleGroup>
+                  <ToggleGroup fx:id="rdgroup" />
+               </toggleGroup>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </RadioButton>
+            <RadioButton disable="true" layoutX="276.0" layoutY="213.0" mnemonicParsing="false" text="Femme" textFill="#827549" toggleGroup="$rdgroup">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></RadioButton>
+            <TextField disable="true" layoutX="35.0" layoutY="247.0" prefHeight="25.0" prefWidth="202.0" promptText="Email" styleClass="textField" />
+            <TextField layoutX="230.0" layoutY="350.0" prefHeight="25.0" prefWidth="45.0" promptText="Qte" styleClass="textField" />
+            <TextField layoutX="291.0" layoutY="351.0" prefHeight="25.0" prefWidth="66.0" promptText="Prix" styleClass="textField" />
+            <Button layoutX="378.0" layoutY="352.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="34.0" style="-fx-background-radius: 120; -fx-background-radius: 90; -fx-background-color: silver; -fx-text-fill: #fff;" styleClass="Button" text="+">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <ComboBox layoutX="33.0" layoutY="350.0" prefHeight="25.0" prefWidth="166.0" promptText="Produit " styleClass="textField" />
+            <TextField layoutX="32.0" layoutY="391.0" prefHeight="25.0" prefWidth="161.0" promptText="Adresse" styleClass="textField" />
+            <ComboBox layoutX="233.0" layoutY="391.0" prefHeight="25.0" prefWidth="166.0" promptText="statut" styleClass="textField" />
+            <Button layoutX="132.0" layoutY="474.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="152.0" styleClass="bouttonEnregistrer" text="Enregistrer">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <AnchorPane layoutX="89.0" layoutY="46.0" prefHeight="3.0" prefWidth="259.0" style="-fx-background-color: #4ca1a3;" />
+            <AnchorPane layoutX="29.0" layoutY="145.0" prefHeight="2.0" prefWidth="50.0" />
+            <AnchorPane layoutX="36.0" layoutY="147.0" prefHeight="2.0" prefWidth="50.0" styleClass="underline" />
+            <Label layoutX="31.0" layoutY="296.0" prefHeight="28.0" prefWidth="101.0" text="Commande : ">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="29.0" layoutY="321.0" prefHeight="2.0" prefWidth="83.0" styleClass="underline" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

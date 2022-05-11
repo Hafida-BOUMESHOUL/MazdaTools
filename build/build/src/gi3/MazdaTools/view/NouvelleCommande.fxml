@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="560.0" prefWidth="880.0" styleClass="anchorPane" stylesheets="@Ressources/styles(interface1).css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gi3.MazdaTools.controller.NvCommandeController">
+   <children>
+      <Pane id="paneGauche" prefHeight="560.0" prefWidth="439.0">
+         <children>
+            <Button fx:id="returnButton" layoutX="26.0" layoutY="2.0" mnemonicParsing="false" onAction="#HomeRetour" prefHeight="49.0" prefWidth="67.0" styleClass="return">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <AnchorPane layoutX="37.0" layoutY="204.0" prefHeight="2.0" prefWidth="366.0" style="-fx-background-color: #4ca1a3;" styleClass="anchorPane" />
+            <AnchorPane layoutX="37.0" layoutY="376.0" prefHeight="2.0" prefWidth="366.0" style="-fx-background-color: #4ca1a3;" styleClass="anchorPane" />
+         </children>
+      </Pane>
+      <Pane id="paneDroit" layoutX="440.0" prefHeight="560.0" prefWidth="439.0">
+         <children>
+            <AnchorPane layoutX="119.0" layoutY="58.0" prefHeight="2.0" prefWidth="194.0" styleClass="anchorPane" />
+            <AnchorPane layoutX="30.0" layoutY="121.0" prefHeight="2.0" prefWidth="44.0" styleClass="underline" />
+            <AnchorPane layoutX="28.0" layoutY="301.0" prefHeight="2.0" prefWidth="83.0" styleClass="underline" />
+            <ComboBox fx:id="sexe" layoutX="233.0" layoutY="196.0" prefHeight="25.0" prefWidth="169.0" promptText="Sexe" styleClass="textField" />
+            <ComboBox fx:id="status" layoutX="224.0" layoutY="393.0" prefHeight="25.0" prefWidth="169.0" promptText="Status" styleClass="textField" />
+            <ComboBox fx:id="product" layoutX="28.0" layoutY="329.0" prefHeight="25.0" prefWidth="169.0" promptText="Nom de produit" styleClass="textField" />
+         </children>
+      </Pane>
+      <Button layoutX="352.0" layoutY="64.0" mnemonicParsing="false" onAction="#Modifier" text="Modifier">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="101.0" mnemonicParsing="false" onAction="#Annulee" prefHeight="27.0" prefWidth="67.0" text="Annulée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="136.0" mnemonicParsing="false" onAction="#Livree" prefHeight="27.0" prefWidth="67.0" text="Livrée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="241.0" mnemonicParsing="false" onAction="#Modifier" text="Modifier">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="278.0" mnemonicParsing="false" onAction="#Annulee" prefHeight="27.0" prefWidth="67.0" text="Annulée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="313.0" mnemonicParsing="false" onAction="#Livree" prefHeight="27.0" prefWidth="67.0" text="Livrée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="412.0" mnemonicParsing="false" onAction="#Modifier" text="Modifier">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonModifier" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="449.0" mnemonicParsing="false" onAction="#Annulee" prefHeight="27.0" prefWidth="67.0" text="Annulée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonAnnulee" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="352.0" layoutY="484.0" mnemonicParsing="false" onAction="#Livree" prefHeight="27.0" prefWidth="67.0" text="Livrée">
+         <styleClass>
+            <String fx:value="boutton" />
+            <String fx:value="bouttonLivree" />
+         </styleClass>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="562.0" layoutY="26.0" prefHeight="27.0" prefWidth="200.0" text=" Nouvelle commande" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="470.0" layoutY="100.0" text="Client:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="276.0" prefHeight="27.0" prefWidth="141.0" text="Commande:">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="673.0" layoutY="160.0" prefHeight="25.0" prefWidth="171.0" promptText="Nom Complet" styleClass="textField" />
+      <TextField fx:id="tel" layoutX="466.0" layoutY="160.0" prefHeight="25.0" prefWidth="184.0" promptText="Télephone" styleClass="textField" />
+      <TextField fx:id="mail" layoutX="466.0" layoutY="198.0" prefHeight="25.0" prefWidth="184.0" promptText="Email" styleClass="textField" />
+      <TextField fx:id="address" layoutX="469.0" layoutY="395.0" prefHeight="25.0" prefWidth="171.0" promptText="Adresse" styleClass="textField" />
+      <TextField fx:id="price" layoutX="659.0" layoutY="330.0" prefHeight="25.0" prefWidth="52.0" promptText="prix" styleClass="textField" />
+      <TextField fx:id="qte" layoutX="723.0" layoutY="330.0" prefHeight="25.0" prefWidth="60.0" promptText="quantite" styleClass="textField" />
+      <Button fx:id="addProduct" layoutX="800.0" layoutY="329.0" mnemonicParsing="false" onAction="#addProduct" prefHeight="18.0" prefWidth="31.0" style="-fx-border-radius: 90; -fx-background-radius: 120; -fx-background-color: silver; -fx-text-fill: #fff;" text="+">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="addCommand" layoutX="575.0" layoutY="479.0" mnemonicParsing="false" onAction="#Enregistrer" prefHeight="41.0" prefWidth="171.0" styleClass="bouttonEnregistrer" text="Enregistrer">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="numCommande1" layoutX="131.0" layoutY="55.0" prefHeight="27.0" prefWidth="33.0" text="---">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomClient1" layoutX="174.0" layoutY="55.0" prefHeight="27.0" prefWidth="133.0" text="---">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalCommande1" layoutX="35.0" layoutY="82.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="productHist1" layoutX="35.0" layoutY="109.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="dateCommande1" layoutX="35.0" layoutY="136.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="numCommande2" layoutX="131.0" layoutY="226.0" prefHeight="27.0" prefWidth="40.0" text="---">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomClient2" layoutX="171.0" layoutY="226.0" prefHeight="27.0" prefWidth="133.0" text="---">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalCommande2" layoutX="33.0" layoutY="253.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="productHist2" layoutX="33.0" layoutY="280.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="dateCommande2" layoutX="33.0" layoutY="307.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="numCommande3" layoutX="128.0" layoutY="404.0" prefHeight="27.0" prefWidth="33.0" text="---">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="nomClient3" layoutX="172.0" layoutY="404.0" prefHeight="27.0" prefWidth="133.0" text="---">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalCommande3" layoutX="33.0" layoutY="431.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="productHist3" layoutX="33.0" layoutY="458.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="dateCommande3" layoutX="33.0" layoutY="485.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="statusCommande1" layoutX="33.0" layoutY="163.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="statusCommande2" layoutX="33.0" layoutY="334.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="statusCommande3" layoutX="33.0" layoutY="512.0" prefHeight="27.0" prefWidth="258.0" text="---" />
+      <Label fx:id="Commande1" layoutX="35.0" layoutY="55.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Commande2" layoutX="33.0" layoutY="226.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="Commande3" layoutX="33.0" layoutY="404.0" prefHeight="27.0" prefWidth="91.0" text="COMMANDE N°">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
